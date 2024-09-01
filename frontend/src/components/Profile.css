@@ -1,0 +1,10 @@
+
+.profile {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.profile h2 {
+    color: var(--primary-button-bg);
+}

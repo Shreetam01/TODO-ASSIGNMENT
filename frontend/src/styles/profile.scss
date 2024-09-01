@@ -1,0 +1,25 @@
+.profile {
+    // border: 1px solid red;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    background-color: #1A1A40;
+    margin-top: 100px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    animation: profile 1s infinite ease-in-out alternate;
+    
+    &:hover {
+        box-shadow: 0 0 50px #1A1A40;
+    }
+}
+
+@keyframes profile {
+    from {
+        transform: translateY(10px);
+    }
+}

@@ -1,0 +1,52 @@
+.home {
+    width: 60%;
+    margin: auto;
+    min-height: 80vh;
+    margin-top: 20px;
+    background-color: #1A1A40;
+    border-radius: 20px;
+    padding: 20px;
+
+    > h1 {
+        text-align: center;
+        margin-top: 65px;
+    }
+
+    .container > h2 {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .container > form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+
+        input, textarea, button {
+            width: 70%;
+            padding: 15px;
+            background: #1A1A40;
+            margin-top: 20px;
+            border: 1px solid #8758ff;
+            outline: none;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        > button {
+            background: #8758ff;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    .taskList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+}

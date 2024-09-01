@@ -1,0 +1,65 @@
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .task .info {
+    flex: 1;
+  }
+  
+  .task .info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .task .info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  .task .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .task .container input[type="checkbox"] {
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  .task .container button {
+    padding: 8px 12px;
+    background-color: #e53935;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+  }
+  
+  .task .container button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .task:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .task .info h3.completed {
+    text-decoration: line-through;
+    color: #aaaaaa;
+  }
+  
